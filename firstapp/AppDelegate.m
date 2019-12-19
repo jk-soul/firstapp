@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "NewsViewController.h"
+#import "VideosViewController.h"
+#import "RecommendViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate ()<UITabBarControllerDelegate>
 
 @end
 
@@ -17,6 +20,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds] ];
+    
+    UITabBarController *tabbarController = [[UITabBarController alloc] init];
+    tabbarController.delegate = self;
+    
+    NewsViewController *vc1 = [[NewsViewController alloc] init];
+    UINavigationController *navigationController  = [[UINavigationController alloc] initWithRootViewController:vc1];
+    navigationController.view.backgroundColor = [UIColor whiteColor];
+    navigationController.tabBarItem.title = @"新闻";
+    
+    VideosViewController *c2 = [[VideosViewController alloc] init];
+    
+    RecommendViewController *c3 = [[RecommendViewController alloc] init];
+    
+    UIViewController *c4 = [[UIViewController alloc] init];
+    c4.view.backgroundColor = [UIColor lightGrayColor];
+    c4.tabBarItem.title = @"我的";
+    
+    [tabbarController setViewControllers:@[navigationController,c2,c3,c4]];
+    
+    self.window.rootViewController = tabbarController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -46,6 +72,10 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+    NSLog(@"did select");
+};
 
 
 @end

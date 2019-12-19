@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		683FE2D023AB1CD3008C3175 /* NewsListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 683FE2CF23AB1CD3008C3175 /* NewsListLoader.m */; };
+		68B9BCE323A38DE3008982CE /* NewsWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B9BCE223A38DE3008982CE /* NewsWebViewViewController.m */; };
+		68B9BCE723A8D659008982CE /* NewsDeleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B9BCE623A8D659008982CE /* NewsDeleteView.m */; };
+		68B9BCEA23AA0D98008982CE /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B9BCE923AA0D98008982CE /* NewsTableViewCell.m */; };
 		68BA51382398EC9B008392FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BA51372398EC9B008392FD /* AppDelegate.m */; };
 		68BA513B2398EC9B008392FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BA513A2398EC9B008392FD /* ViewController.m */; };
 		68BA513E2398EC9B008392FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BA513C2398EC9B008392FD /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 		68BA51462398EC9C008392FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BA51452398EC9C008392FD /* main.m */; };
 		68BA51502398EC9C008392FD /* firstappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BA514F2398EC9C008392FD /* firstappTests.m */; };
 		68BA515B2398EC9C008392FD /* firstappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BA515A2398EC9C008392FD /* firstappUITests.m */; };
+		68BA516A2398F23F008392FD /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BA51692398F23F008392FD /* NewsViewController.m */; };
+		68BA516C239F9FC7008392FD /* panda.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68BA516B239F9FC7008392FD /* panda.jpeg */; };
+		68BA517023A1209D008392FD /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BA516F23A1209D008392FD /* VideosViewController.m */; };
+		68BA517423A22BE1008392FD /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BA517323A22BE1008392FD /* RecommendViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		683FE2CE23AB1CD3008C3175 /* NewsListLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsListLoader.h; sourceTree = "<group>"; };
+		683FE2CF23AB1CD3008C3175 /* NewsListLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsListLoader.m; sourceTree = "<group>"; };
+		68B9BCE123A38DE3008982CE /* NewsWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsWebViewViewController.h; sourceTree = "<group>"; };
+		68B9BCE223A38DE3008982CE /* NewsWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsWebViewViewController.m; sourceTree = "<group>"; };
+		68B9BCE523A8D659008982CE /* NewsDeleteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsDeleteView.h; sourceTree = "<group>"; };
+		68B9BCE623A8D659008982CE /* NewsDeleteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsDeleteView.m; sourceTree = "<group>"; };
+		68B9BCE823AA0D97008982CE /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		68B9BCE923AA0D98008982CE /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
 		68BA51332398EC9B008392FD /* firstapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BA51362398EC9B008392FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68BA51372398EC9B008392FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,13 @@
 		68BA51562398EC9C008392FD /* firstappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BA515A2398EC9C008392FD /* firstappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstappUITests.m; sourceTree = "<group>"; };
 		68BA515C2398EC9C008392FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BA51682398F23F008392FD /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		68BA51692398F23F008392FD /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		68BA516B239F9FC7008392FD /* panda.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panda.jpeg; sourceTree = "<group>"; };
+		68BA516E23A1209D008392FD /* VideosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideosViewController.h; sourceTree = "<group>"; };
+		68BA516F23A1209D008392FD /* VideosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideosViewController.m; sourceTree = "<group>"; };
+		68BA517223A22BE1008392FD /* RecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		68BA517323A22BE1008392FD /* RecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +101,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		683FE2CC23AB1C24008C3175 /* NewsController */ = {
+			isa = PBXGroup;
+			children = (
+				68B9BCE123A38DE3008982CE /* NewsWebViewViewController.h */,
+				68B9BCE223A38DE3008982CE /* NewsWebViewViewController.m */,
+				68B9BCE523A8D659008982CE /* NewsDeleteView.h */,
+				68B9BCE623A8D659008982CE /* NewsDeleteView.m */,
+				68B9BCE823AA0D97008982CE /* NewsTableViewCell.h */,
+				68B9BCE923AA0D98008982CE /* NewsTableViewCell.m */,
+				68BA51682398F23F008392FD /* NewsViewController.h */,
+				68BA51692398F23F008392FD /* NewsViewController.m */,
+			);
+			path = NewsController;
+			sourceTree = "<group>";
+		};
+		683FE2CD23AB1CAD008C3175 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				683FE2CE23AB1CD3008C3175 /* NewsListLoader.h */,
+				683FE2CF23AB1CD3008C3175 /* NewsListLoader.m */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
 		68BA512A2398EC9A008392FD = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +157,13 @@
 				68BA51412398EC9C008392FD /* LaunchScreen.storyboard */,
 				68BA51442398EC9C008392FD /* Info.plist */,
 				68BA51452398EC9C008392FD /* main.m */,
+				683FE2CD23AB1CAD008C3175 /* Loader */,
+				683FE2CC23AB1C24008C3175 /* NewsController */,
+				68BA516E23A1209D008392FD /* VideosViewController.h */,
+				68BA516F23A1209D008392FD /* VideosViewController.m */,
+				68BA517223A22BE1008392FD /* RecommendViewController.h */,
+				68BA517323A22BE1008392FD /* RecommendViewController.m */,
+				68BA516D239F9FD5008392FD /* assets */,
 			);
 			path = firstapp;
 			sourceTree = "<group>";
@@ -130,6 +184,14 @@
 				68BA515C2398EC9C008392FD /* Info.plist */,
 			);
 			path = firstappUITests;
+			sourceTree = "<group>";
+		};
+		68BA516D239F9FD5008392FD /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				68BA516B239F9FC7008392FD /* panda.jpeg */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +299,7 @@
 			files = (
 				68BA51432398EC9C008392FD /* LaunchScreen.storyboard in Resources */,
 				68BA51402398EC9C008392FD /* Assets.xcassets in Resources */,
+				68BA516C239F9FC7008392FD /* panda.jpeg in Resources */,
 				68BA513E2398EC9B008392FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +328,13 @@
 				68BA513B2398EC9B008392FD /* ViewController.m in Sources */,
 				68BA51462398EC9C008392FD /* main.m in Sources */,
 				68BA51382398EC9B008392FD /* AppDelegate.m in Sources */,
+				68B9BCEA23AA0D98008982CE /* NewsTableViewCell.m in Sources */,
+				68B9BCE323A38DE3008982CE /* NewsWebViewViewController.m in Sources */,
+				68BA516A2398F23F008392FD /* NewsViewController.m in Sources */,
+				68B9BCE723A8D659008982CE /* NewsDeleteView.m in Sources */,
+				683FE2D023AB1CD3008C3175 /* NewsListLoader.m in Sources */,
+				68BA517023A1209D008392FD /* VideosViewController.m in Sources */,
+				68BA517423A22BE1008392FD /* RecommendViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
